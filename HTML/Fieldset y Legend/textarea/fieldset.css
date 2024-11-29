@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+form{
+    border: transparent ;
+    padding: 10px 20px ;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 55px #7779;
+    margin-top: 50px;
+    
+    font-weight:100;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+input,textarea,type-of-user{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 8px;
+    border: none;
+    border:1px solid #666;
+    box-shadow: 0 0 15px #000;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #ddd;
+    margin: 6px 0;
+}
+
+fieldset{
+    margin: 10px 0;
+    border: 1px solid #ddd6;
+    border-radius: 6px;
+}

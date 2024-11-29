@@ -1,0 +1,23 @@
+body{
+    background-color: #333;
+    color:#fff
+}
+details{
+    background-color: transparent;
+    border:1px solid #ddd;
+    padding: 9px;
+    margin: 1.5em;
+}
+summary{
+    background-color: transparent;
+    
+}
+ul{
+    color:#ccc;
+    font-size: 0.8em;
+    
+}
+p{
+    color: #ccc;
+    font-size: 0.8em;
+}

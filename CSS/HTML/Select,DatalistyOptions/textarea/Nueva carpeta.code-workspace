@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop/projecto/Nueva carpeta"
+		},
+		{
+			"path": "../../../../../Desktop/projecto/pagina/pagina_principal"
+		},
+		{
+			"path": "../../../../../Desktop/projecto/pagina/imagenes y videos"
+		},
+		{
+			"path": "../../../../../Desktop/projecto/pagina/styless"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Nueva carpeta"
+	}
+}

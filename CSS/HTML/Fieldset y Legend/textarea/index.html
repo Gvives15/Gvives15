@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</Textarea></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <form>
+        <h2>Formulario De Contactos</h2>
+        <fieldset>   
+            <legend>contenido basico</legend>
+            <div class="form_input">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" placeholder="john" id="nombre"> 
+            </div>
+            <div class="form_input">
+                <label for="Email">Email</label>
+                <input type="text" placeholder="ejemplo@gmail.com" id="Email">
+            </div>
+            <div class="form_input">
+                <label for="Asunt">Asunto</label>
+                <input type="text" placeholder="necesito ayuda" id="Asunt">
+            </div>
+        </fieldset>
+
+<!--select y options-->
+        <div class="form_input">
+            <label> Tipo de Usuario
+                <select name="type-of-user">
+                    <option value="German">empressa</option>
+                    <option value="user2">seguidor</option>
+                    <option value="user3">otros</option>
+                </select>
+            </label>
+        </div>
+<!--datalist y options-->
+    <div class="form_input">
+        <label> Tipo de Usuario
+            <input  list="referente" name="referente">
+            <datalist id="referente" name="type-of-user">
+                <option value="German">Esta aprendiendo</option>
+                <option value="user2">seguidor</option>
+                <option value="user3">otros</option>
+            </select>
+        </label>
+    </div>
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea rows="8" placeholder="deja tu mensaje..." id="mensaje"></textarea>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+div{
+    background-color: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 2px solid #999;
+    font-size: 20px;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+   
+}
+h1{
+    margin: 0px;
+    font-size: 23px;
+}
+span{
+    background-color: #999;
+    font-size: 15px;
+    font-weight: 100;
+ }
+  p{
+    color: #555;
+  }
